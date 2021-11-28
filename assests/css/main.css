@@ -1,0 +1,239 @@
+/*============= shared ============*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', serif;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+.one-col{
+    width: 100%;
+}
+
+.two-col{
+    width: 50%;
+}
+
+.three-col{
+    width: 33.3333%;
+}
+/*============= shared ============*/
+
+
+/*============= header ============*/
+#header{
+    background: #fff;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#header .nav{
+    padding: 0 16px;
+}
+
+#header .nav a{
+    line-height: 55px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+#header .nav .nav-left{
+    float: right;
+}
+
+#header .nav a:hover{
+    background: #ccc;
+}
+/*============= header ============*/
+
+
+/*============= slider ============*/
+#slider .slider-ct{
+    position: relative;
+}
+
+#slider .slider-ct .slider-dct{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #666666;
+}
+
+#slider .slider-ct .slider-img{
+    max-width: 100%;
+    height: auto;
+}
+/*============= slider ============*/
+
+
+/*============= content ============*/
+/* about-section */
+.section-ct{
+    padding: 70px 0 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-ct .section-ct1{
+    flex-basis: 45%;
+}
+
+.section-ct .section-ct1 .section-img{
+    width: 100%;
+    opacity: 0.75;
+}
+
+.section-ct .section-ct2{
+    flex-basis: 45%;
+}
+
+.section-ct .section-ct2 .section-hd{
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0 50px;
+}
+
+#about-section .section-ct2 .about-sub-hd{
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#about-section .section-ct2 .about-dct1{
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+
+#about-section .section-ct2 span{
+    background: #f1f1f1;
+    padding: 0 8px;
+}
+
+#about-section .section-ct2 .about-dct2{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #757575;
+}
+/* about-section */
+hr{
+    border: 1px solid #eee;
+}
+/* menu-section */
+#menu-section .food-list .food-item{
+    padding-bottom: 50px;
+}
+
+#menu-section .food-item .food-name{
+    padding-bottom: 25px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+#menu-section .food-item .food-dct{
+    font-size: 15px;
+    color: #757575;
+}
+/* menu-section */
+
+/* contact-section */
+#contact-section{
+    padding: 70px 30px 90px 30px;
+}
+
+#contact-section .section-hd{
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    padding: 10px 0 50px;
+}
+
+#contact-section .contact-dct{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#contact-section .contact-address{
+    font-size: 18px;
+    padding: 20px 0;
+    color: #607d8b;
+}
+
+#contact-section .contact-sub-address{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+#contact-section .contact-form .form-control{
+    padding: 20px 8px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+#contact-section .contact-form .send-message-btn{
+    border: none;
+    margin-top: 25px;
+    background: #f1f1f1;
+    color: #000;
+    padding: 16px;
+    float: right;
+}
+
+#contact-section .contact-form .send-message-btn:hover{
+    background: #ccc;
+    cursor: pointer;
+}
+    /* contact-section */
+/*============= content ============*/
+
+
+/*============= footer ============*/
+#footer{
+    height: 120px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+#footer .license p{
+    font-size: 15px;
+    line-height: 120px;
+}
+
+#footer .license a{
+    color: #000;
+}
+
+#footer .license a:hover{
+    color: #4CAF50;
+}
+/*============= footer ============*/

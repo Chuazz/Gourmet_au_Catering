@@ -1,0 +1,32 @@
+/* ================= PC ==================== */
+@media (min-width: 64em){
+    
+}
+/* ================= PC ==================== */
+
+/* =============== Tablet ================== */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+
+}
+/* =============== Tablet ================== */
+
+/* =============== Mobile ================== */
+@media (max-width: 46.1875em){
+    .section-ct{
+        flex-direction: column-reverse;
+    }
+
+    #about-section .section-ct2 .about-dct1,
+    #about-section .section-ct2 .about-dct2,
+    #menu-section .food-item .food-name,
+    #menu-section .food-item .food-dct{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #contact-section .section-hd{
+       text-align: center;
+    }
+}
+/* =============== Mobile ================== */
